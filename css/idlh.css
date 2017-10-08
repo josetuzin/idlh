@@ -87,6 +87,8 @@ body {
 		url('Kunstler Script.woff2') format('woff2'),
 		url('Kunstler Script.woff') format('woff'),
 		url('Kunstler Script.svg#Kunstler Script') format('svg');
+	src: local('Kunstler Script'), local('KunstlerScript'),
+		url('fonts/Kunstler.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
