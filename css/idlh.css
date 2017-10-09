@@ -9,13 +9,13 @@
 	font-style: normal;*/
 
 	font-family:'Kunstler Script';
-    src: url('./fonts/Kunstler Script.eot');
-	src: url('./fonts/Kunstler Script.eot?#iefix') format('embedded-opentype'),
-		url('./fonts/Kunstler Script.woff2') format('woff2'),
-		url('./fonts/Kunstler Script.woff') format('woff'),
-		url('./fonts/Kunstler Script.svg#Kunstler Script') format('svg');
-	src: local('Kunstler Script'), local('./fonts/KunstlerScript'),
-		url('./fonts/Kunstler.ttf') format('truetype');
+    src: url('../fonts/Kunstler Script.eot');
+	src: url('../fonts/Kunstler Script.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Kunstler Script.woff2') format('woff2'),
+		url('../fonts/Kunstler Script.woff') format('woff'),
+		url('../fonts/Kunstler Script.svg#Kunstler Script') format('svg');
+	src: local('Kunstler Script'), local('../fonts/KunstlerScript'),
+		url('../fonts/Kunstler.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
