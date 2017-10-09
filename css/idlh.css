@@ -14,7 +14,7 @@
 		url('fonts/Kunstler Script.woff2') format('woff2'),
 		url('fonts/Kunstler Script.woff') format('woff'),
 		url('fonts/Kunstler Script.svg#Kunstler Script') format('svg');
-	src: local('Kunstler Script'), local('fonts/KunstlerScript'),
+	src: local('Kunstler Script'), local('KunstlerScript'),
 		url('fonts/Kunstler.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
@@ -97,17 +97,6 @@ body {
 }
 
 
-
-
-/*
-.kunstler {
-	font-family: 'Kunstler Script', sans-serif;
-	font-size: 80px;
-	font-weight: normal;
-    font-style: normal;
-}
-*/
-
 .logonombre {
 	position: relative;
 	display: flex;
@@ -156,7 +145,7 @@ body {
 .titulo-b {
 	font-family: 'Kunstler Script', cursive;
 	font-size: 48px;
-	margin: 30px auto 10px auto;
+	margin: 20px auto;
 }
 
 #un-vestido {
@@ -212,6 +201,9 @@ body {
 
 .vestido {
 	margin: 10px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .vestido img {
@@ -316,26 +308,43 @@ body {
 }
 
 
-
-
-
-
 .contenedor .p {
 	/*display: inline-block;	*/	
 }
 
+/************ galeria ************/
+
+/*.imageGallery { cursor:zoom-in; }
+
+.imageGallery:-webkit-full-screen { cursor:zoom-out; }
+
+.imageGallery:-moz-full-screen { cursor:zoom-out; }
+
+.imageGallery:-ms-fullscreen { cursor:zoom-out; }
+
+.imageGallery:fullscreen { cursor:zoom-out; }*/
+
+
+/*********** fin galeria **********/
+
 
 .galeria {
+	background: #EBEDEF;
+	margin: 40px auto;
+	padding: 20px 0;
+}
+
+
+
+.imagenes-galeria {
 	display: flex;
 	flex-direction: wrap;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	margin: 30px auto;
-	padding: 30px 0;
-	background: #EBEDEF;
+
 }
 
-.galeria .foto-vestido {
+.imagenes-galeria .foto-vestido {
 	width: 250px;
 	margin: 5px auto;
 	/*importado*/
@@ -496,7 +505,7 @@ input, textarea {
 		justify-content: center;
 	}
 
-	.galeria {
+	.imagenes-galeria {
 		flex-direction: column;
 	}
 
