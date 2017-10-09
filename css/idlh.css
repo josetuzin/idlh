@@ -1,6 +1,28 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 
+@font-face {
+/*	font-family: 'Kunstler Script';
+	src: local('Kunstler Script'), local('KunstlerScript'),
+		url('fonts/Kunstler.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;*/
+
+	font-family:'Kunstler Script';
+    src: url('fonts/Kunstler Script.eot');
+	src: url('fonts/Kunstler Script.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Kunstler Script.woff2') format('woff2'),
+		url('fonts/Kunstler Script.woff') format('woff'),
+		url('fonts/Kunstler Script.svg#Kunstler Script') format('svg');
+	src: local('Kunstler Script'), local('fonts/KunstlerScript'),
+		url('fonts/Kunstler.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+
+}
+
 
 * {
 	padding: 0;
@@ -74,27 +96,7 @@ body {
 	min-width: 400px;
 }
 
-@font-face {
-/*	font-family: 'Kunstler Script';
-	src: local('Kunstler Script'), local('KunstlerScript'),
-		url('fonts/Kunstler.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;*/
 
-	font-family:'Kunstler Script';
-    src: url('Kunstler Script.eot');
-	src: url('Kunstler Script.eot?#iefix') format('embedded-opentype'),
-		url('Kunstler Script.woff2') format('woff2'),
-		url('Kunstler Script.woff') format('woff'),
-		url('Kunstler Script.svg#Kunstler Script') format('svg');
-	src: local('Kunstler Script'), local('KunstlerScript'),
-		url('fonts/Kunstler.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-02DC;
-
-}
 
 
 /*
