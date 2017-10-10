@@ -1,0 +1,4 @@
+
+sitio "listo"
+resuelto lightbox
+y redistribuir footer en 500px de ancho
