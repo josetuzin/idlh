@@ -2,12 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 
 @font-face {
-/*	font-family: 'Kunstler Script';
-	src: local('Kunstler Script'), local('KunstlerScript'),
-		url('fonts/Kunstler.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;*/
-
 	font-family:'Kunstler Script';
     src: url('fonts/Kunstler Script.eot');
 	src: url('fonts/Kunstler Script.eot?#iefix') format('embedded-opentype'),
@@ -20,7 +14,6 @@
     font-style: normal;
     font-stretch: normal;
     unicode-range: U+0020-02DC;
-
 }
 
 
@@ -35,7 +28,6 @@
 
 
 body {
-	margin: 20px 0;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -51,12 +43,10 @@ body {
 }
  
  .intro {
-	margin-top: 100px;
-	position: relative;
 	display: flex;
+	position: relative;
 	justify-content: space-between;
 	min-width: 300px; 
-	background-color: #D6DBDF;
 }
 
 
@@ -78,16 +68,15 @@ body {
 
 .col2 {
 	display: inline-block;
-	margin: 0 30px;
 	width: 50%;
 	min-width: 300px;
-	height: 50%;	
 	background: url(../images/ines.jpg) no-repeat;
 	background-size: cover;
 }
 
 .col2-footer {
-	display: inline-block;
+	display: flex;
+	justify-content: center;
 	width: 50%;
 }
 
@@ -98,6 +87,7 @@ body {
 
 
 .logonombre {
+	margin-top: 100px;
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -114,6 +104,27 @@ body {
 
 }
 
+.logoH {
+
+	display: flex;
+	justify-content: center;
+	position: relative;
+	margin: 0 auto;
+	line-height: 1.5;
+	width: 212px;
+	height: 212px;
+	border: 2px solid black;
+	border-radius: 50%;
+	font-family: 'Kunstler Script', sans-serif;
+	font-size: 146px;
+	padding: 0;
+}
+
+.logoH span {
+	display: flex;
+	position: relative;
+	left:-44px;
+}
 
 .nombre {
 	font-family: 'Kunstler Script', sans-serif;
@@ -121,7 +132,6 @@ body {
 	padding: 0;
 	display: inline;
 	border-bottom: 2px solid;
-	font-weight: normal;
     font-style: normal;
     text-align: center;
 }
@@ -131,7 +141,7 @@ body {
 	font-family: 'Kunstler Script', cursive;
 	font-size: 66px;
 	line-height: .8;
-	margin: 0 auto 30px auto;
+	margin: 50px auto 30px auto;
 	padding: 0;
 }
 
@@ -145,32 +155,48 @@ body {
 .titulo-b {
 	font-family: 'Kunstler Script', cursive;
 	font-size: 48px;
-	margin: 20px auto;
+	margin: 30px auto 10px auto;
 }
 
 #un-vestido {
 	position: relative;
-	width: 90%;
 	height: 600px;
-	margin: 150px auto auto auto;
-	/*border: 1px solid black;*/
+	margin: 100px auto auto auto;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
-	
+
+
+.background {
+	padding: 10px 0;
+	background: #eeeeee;
+}
+
+#background-intro {
+	padding: 80px 0;
+	background: #eeeeee;
+}
+
+#background-footer {
+	background: #eeeeee;
+}
+
+
 .contenedor {
 	position: relative;
 	width: 90%;
 	margin: auto;
-	/*border: 1px solid black;*/
-	position: relative;	
 }
 
+.contenedor-footer {
+	display: flex;
+	width: 90%;
+	margin: auto;
+}
 
-.menu {
-	background-color: lightgrey; 
-	margin: 30px auto 100px auto;
+.menu { 
+	margin: 0 auto;
 	padding: 30px 40px;
 	width: 100%;
 	font-size: 24px;
@@ -201,9 +227,6 @@ body {
 
 .vestido {
 	margin: 10px 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
 }
 
 .vestido img {
@@ -229,23 +252,6 @@ body {
 	width: 100%; 
 }
 
-
-.footer {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	background-color: #D6DBDF;
-	position: relative;
-
-}
-
-/*.footer .contenedor {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	flex-nowrap: nowrap;
-	margin: auto 10%;
-}*/
 
 .footer {
 	display: flex;
@@ -308,43 +314,21 @@ body {
 }
 
 
+
 .contenedor .p {
 	/*display: inline-block;	*/	
 }
 
-/************ galeria ************/
-
-/*.imageGallery { cursor:zoom-in; }
-
-.imageGallery:-webkit-full-screen { cursor:zoom-out; }
-
-.imageGallery:-moz-full-screen { cursor:zoom-out; }
-
-.imageGallery:-ms-fullscreen { cursor:zoom-out; }
-
-.imageGallery:fullscreen { cursor:zoom-out; }*/
-
-
-/*********** fin galeria **********/
-
 
 .galeria {
-	background: #EBEDEF;
-	margin: 40px auto;
-	padding: 20px 0;
-}
-
-
-
-.imagenes-galeria {
 	display: flex;
 	flex-direction: wrap;
 	flex-wrap: wrap;
 	justify-content: space-around;
-
+	margin: 30px auto;
 }
 
-.imagenes-galeria .foto-vestido {
+.galeria .foto-vestido {
 	width: 250px;
 	margin: 5px auto;
 	/*importado*/
@@ -432,9 +416,6 @@ input, textarea {
 
 
 
-
-
-
 @media screen and (max-width: 800px){
 	
 	.menu ul li {
@@ -454,12 +435,18 @@ input, textarea {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+		height: 500px;
 	}
 	
-	.col1, .col2 {
-		/*min-width: 380px;*/
-		width: 100%;
+	.titulo-intro {
+		margin: 0 auto 20px auto;
 	}
+
+
+	.col1 {
+		padding: 0;
+		margin-bottom: 40px;
+	}	
 
 	.col2 {
 		background: url(../images/ines.jpg) no-repeat;
@@ -467,10 +454,14 @@ input, textarea {
 		background-size: cover;
 	}
 
+	.col1, .col2 {
+		width: 100%;
+	}
+
+
 	.formulario {
 		width: 60%;	
 	}
-
 
 
 }
@@ -488,12 +479,36 @@ input, textarea {
 		height: auto;
 	}	
 
-	.footer {
+	.intro {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 500px;
+	}
+
+	.contenedor-footer {
 		display: flex;
 		flex-direction: column-reverse;
 		justify-content: space-around;
 	}
 
+
+
+	#background-intro {
+		padding: 40px 0;
+		background: #eeeeee;
+	}
+
+
+	.titulo-intro {
+		margin: 0 auto 20px auto;
+	}
+
+
+	.col1 {
+		padding: 0;
+		margin-bottom: 20px;
+	}
 
 	.col1-footer, .col2-footer {
 		min-width: 380px;
@@ -505,7 +520,7 @@ input, textarea {
 		justify-content: center;
 	}
 
-	.imagenes-galeria {
+	.galeria {
 		flex-direction: column;
 	}
 
