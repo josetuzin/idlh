@@ -423,6 +423,16 @@ input, textarea {
 		width: 100%
 	}
 
+
+	.menu { 
+		padding: 5px 40px;
+	}
+
+	.logonombre {
+		margin-top: 80px;
+	}
+
+
 	.foto-vestido {
 		width: 40%;
 		margin: 5px auto;
@@ -473,11 +483,13 @@ input, textarea {
 		display: block;
 	}
 
+
 	.logo {
 		margin: auto;
 		width: 50%;
 		height: auto;
 	}	
+
 
 	.intro {
 		display: flex;
