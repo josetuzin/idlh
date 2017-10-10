@@ -62,52 +62,61 @@
     </script>
     <!-- Fin Mapa -->
 
-
 </head>
 <body>
 
-	<header id="header" class="header contenedor">
-		<nav class="menu">
-			<ul>
-				<li><a href="#un-vestido">UN VESTIDO PARA VOS</a></li>
-				<li><a href="#novias">NOVIAS</a></li>
-				<li><a href="#fiestas">FIESTAS</a></li>
-				<li><a href="#consultas">CONSULTAS</a></li>
-			</ul>
-		</nav>
-		
-		<div class="logonombre">
-			<figure class="logo">
-				<img src="images/logo.png"  alt="IDLH logotipo">
-			</figure>
-			<h1 class="nombre">Inés de las Heras</h1>
-
-		</div> 
-
-	
+	<header id="header" class="header">
+		<div class="background">	
+			<div class="contenedor">
+				<nav class="menu">
+					<ul>
+						<li><a href="#un-vestido">UN VESTIDO PARA VOS</a></li>
+						<li><a href="#novias">NOVIAS</a></li>
+						<li><a href="#fiesta">FIESTAS</a></li>
+						<li><a href="#consultas">CONSULTAS</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="contenedor">
+			<div class="logonombre">
+				<!-- <figure class="logo">
+					<img src="images/logo.png"  alt="IDLH logotipo">
+				</figure> -->
+				<div class="logoH">
+					<span>H</span>
+				</div>
+				
+				<h1 class="nombre">Inés de las Heras</h1>
+			</div>
+		</div>
 	</header>
 	
-	<section id="un-vestido" class="intro">
-		<div class="col1">
-			<h2 class="titulo-intro">Un vestido para vos</h2>
-			<p class="texto-intro">
-				Inés de las Heras propone modelos únicos para las novias más modernas, que quieren facilidad a la hora de comprar esta prenda. Si se sienten así, entonces les encantará saber que también les ofrece mucha flexibilidad y muchas posibilidades, que van desde el alquiler hasta la compra. Podrán probarse todos los modelos que quieran y así decidir cuál es aquel con el que siempre soñaron. 
-			</p>			
-		</div>
-		<div class="col2"></div>
-
-			
+	<section id="un-vestido" >
+		<div id="background-intro">	
+			<div class="contenedor intro">
+				<div class="col1">
+					<h2 class="titulo-intro">Un vestido para vos</h2>
+					<p class="texto-intro">
+						Inés de las Heras propone modelos únicos para las novias más modernas, que quieren facilidad a la hora de comprar esta prenda. Si se sienten así, entonces les encantará saber que también les ofrece mucha flexibilidad y muchas posibilidades, que van desde el alquiler hasta la compra. Podrán probarse todos los modelos que quieran y así decidir cuál es aquel con el que siempre soñaron. 
+					</p>			
+				</div>
+				<div class="col2">sfsd
+					<!-- <img src="images/ines.jpg"/> -->
+				</div>
+			</div>
+		</div>	
 	</section>
 
-	<section class="vestidos contenedor">
+	<section id="novias" class="vestidos">
+		<div class="contenedor">
 
-		<h2 id="novias" class="titulo-a">Vestidos de novia</h2>
+			<h2 class="titulo-a">Vestidos de Novia</h2>
 
-		<article class="vestido">
-			<img src="images/vestido1.jpg"/>
-			<div class="galeria">
+			<article class="vestido">
+				<img src="images/vestido1.jpg"/>
 				<h3 class="titulo-b">Galería</h3>
-				<div class="imagenes-galeria">
+				<div class="galeria">
 					<div class="foto-vestido">
 						<img src="images/v1.jpg" alt="vestido">
 					</div>
@@ -133,16 +142,19 @@
 						<img src="images/v8.jpg" alt="vestido">
 					</div>
 				</div>
-			</div>
-		</article>
+			</article>
+		</div>
+	</section>
 
-		<h2 id="fiestas" class="titulo-a">Vestidos de Fiesta</h2>
+	<section id="fiesta" class="vestidos background">
 
-		<article class="vestido">
-			<img src="images/vestido3.jpg"/>
-			<div class="galeria">
-			<h3 class="titulo-b">Galería</h3>
-				<div class="imagenes-galeria">
+		<div class="contenedor">
+
+			<h2  class="titulo-a">Vestidos de Fiesta</h2>
+			<article class="vestido">
+				<img src="images/vestido3.jpg"/>
+				<h3 class="titulo-b">Galería</h3>
+				<div class="galeria">
 					<div class="foto-vestido">
 						<img src="images/v1.jpg" alt="vestido">
 					</div>
@@ -168,9 +180,9 @@
 						<img src="images/v8.jpg" alt="vestido">
 					</div>
 				</div>
-			</div>
-		</article>
-		
+			</article>
+		</div>
+
 	</section>
 
 	<section id="consultas" class="consultas contenedor">
@@ -203,29 +215,26 @@
 	</section>
 
 
-	<footer class="footer contenedor">
 
-		<div class="col1-footer">
-
-			<a href="https://www.facebook.com/ines.delasheras.9" target="_blank">
-				<img src="images/logo-facebook.png"></a>
-			<a href="https://www.instagram.com/inesdelasheras/" target="_blank">
-				<img src="images/logo-instagram.png"></a>
-			<a href="https://www.instagram.com/inesdelasheras/" target="_blank">
-				<img src="images/logo-twitter.png"></a>
-
-			<p>consultas@inesdelasheras.com</p>
-			<p>(+54)376-154330043</p>	
-			<p>Showroom: Jujuy esq. Belgrano</p>
-			<p>Posadas | Misiones</p>
-			
-		</div>
-
-		<div class="col2-footer">
-			<div id="map">
-    		</div>		
-		</div>
-
+	<footer id="background-footer">
+			<div class="contenedor-footer">		
+				<div class="col1-footer">
+					<a href="https://www.facebook.com/ines.delasheras.9" target="_blank">
+						<img src="images/logo-facebook.png"></a>
+					<a href="https://www.instagram.com/inesdelasheras/" target="_blank">
+						<img src="images/logo-instagram.png"></a>
+					<a href="https://www.instagram.com/inesdelasheras/" target="_blank">
+						<img src="images/logo-twitter.png"></a>
+					<p>consultas@inesdelasheras.com</p>
+					<p>(+54) 376-154330043</p>	
+					<p>Showroom: Jujuy esq. Belgrano</p>
+					<p>Posadas | Misiones</p>
+				</div>
+				<div class="col2-footer">
+					<div id="map">
+		    		</div>		
+				</div>
+			</div>
 	</footer>	
 
 	<div id="boton-fixed">
