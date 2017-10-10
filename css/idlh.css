@@ -191,8 +191,9 @@ body {
 
 .contenedor-footer {
 	display: flex;
-	width: 90%;
+	padding: 0 150px;
 	margin: auto;
+	width: 100%;
 }
 
 .menu { 
@@ -473,6 +474,10 @@ input, textarea {
 		width: 60%;	
 	}
 
+	.contenedor-footer {
+		padding: 0;
+	}
+
 
 }
 
@@ -502,6 +507,7 @@ input, textarea {
 		display: flex;
 		flex-direction: column-reverse;
 		justify-content: space-around;
+		padding: 0;
 	}
 
 
@@ -523,7 +529,7 @@ input, textarea {
 	}
 
 	.col1-footer, .col2-footer {
-		min-width: 380px;
+		/*min-width: 380px;*/
 		width: 100%;
 	}
 
