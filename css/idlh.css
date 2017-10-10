@@ -416,6 +416,51 @@ input, textarea {
 }
 
 
+/******************* galeria de fotos *********************/
+
+.fond{
+	position:absolute;
+	padding-top:85px;
+	top:0;
+	left:0; 
+	right:0;
+	bottom:0;
+	background-color:#00506b;
+}
+
+.vestido-preview
+{
+    display:inline-block;
+    border:0;
+    width:196px;
+    /*height:210px;*/
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+    /*background: url(../images/v8-.jpg) no-repeat;*/
+
+}
+.vestido-preview:hover
+{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+/****************** fin galeria de fotos ******************/
 
 @media screen and (max-width: 800px){
 	
